@@ -5,7 +5,7 @@ admin:
   hostname: localhost
 apiEndpoints:
   api:
-    host: "localhost"
+    host: "*"
     paths: /api/v1/*
     methods: ["GET", "POST"]
 serviceEndpoints:
