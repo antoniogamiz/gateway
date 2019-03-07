@@ -1,19 +1,11 @@
 {
-  "name": "gateway",
+  "name": "manga-cradle-gateway",
+  "description": "Express Gateway Instance Bootstraped from Command Line",
+  "repository": {},
+  "license": "UNLICENSED",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/antoniogamiz/gateway.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/antoniogamiz/gateway/issues"
-  },
-  "homepage": "https://github.com/antoniogamiz/gateway#readme"
+  "main": "server.js",
+  "dependencies": {
+    "express-gateway": "^1.15.0"
+  }
 }

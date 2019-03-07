@@ -10,7 +10,7 @@ apiEndpoints:
     methods: ["GET", "POST"]
 serviceEndpoints:
   api-service:
-    url: "http://localhost:8000"
+    url: "http://manga-api:8000"
 policies:
   - basic-auth
   - cors
